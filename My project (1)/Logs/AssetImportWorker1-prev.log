@@ -22,7 +22,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-60830
+49849
 Successfully changed project path to: /Users/shiranekyosuke/Documents/GitHub/AkiyamaHomepage/My project (1)
 /Users/shiranekyosuke/Documents/GitHub/AkiyamaHomepage/My project (1)
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,7 +54,7 @@ Successfully changed project path to: /Users/shiranekyosuke/Documents/GitHub/Aki
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 131.99 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 97.62 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.4f1 (cb45f9cae8b7)
 [Subsystems] Discovering subsystems at path /Users/shiranekyosuke/Desktop/2021.3.4f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -69,91 +69,91 @@ Initialize mono
 Mono path[0] = '/Users/shiranekyosuke/Desktop/2021.3.4f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Users/shiranekyosuke/Desktop/2021.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Users/shiranekyosuke/Desktop/2021.3.4f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56623
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56728
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Users/shiranekyosuke/Desktop/2021.3.4f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001086 seconds.
+Registered in 0.000868 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 92.77 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 89.22 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.821 seconds
+- Completed reload, in  0.741 seconds
 Domain Reload Profiling:
-	ReloadAssembly (822ms)
-		BeginReloadAssembly (82ms)
+	ReloadAssembly (742ms)
+		BeginReloadAssembly (65ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (569ms)
-			LoadAssemblies (81ms)
+		EndReloadAssembly (550ms)
+			LoadAssemblies (64ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (147ms)
+			SetupTypeCache (140ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (324ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (305ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (93ms)
+				RefreshPlugins (89ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (167ms)
-				ProcessInitializeOnLoadMethodAttributes (52ms)
+				ProcessInitializeOnLoadAttributes (159ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005267 seconds.
+Registered in 0.003659 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/shiranekyosuke/Documents/GitHub/AkiyamaHomepage/My project (1)/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/shiranekyosuke/Documents/GitHub/AkiyamaHomepage/My project (1)/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 90.70 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 89.34 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 Mono: successfully reloaded assembly
-- Completed reload, in  1.430 seconds
+- Completed reload, in  1.365 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1430ms)
-		BeginReloadAssembly (112ms)
+	ReloadAssembly (1367ms)
+		BeginReloadAssembly (125ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (1192ms)
-			LoadAssemblies (79ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (1092ms)
+			LoadAssemblies (86ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (362ms)
+			SetupTypeCache (361ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (77ms)
-			SetupLoadedEditorAssemblies (603ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (513ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (91ms)
-				BeforeProcessingInitializeOnLoad (114ms)
-				ProcessInitializeOnLoadAttributes (359ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
+				RefreshPlugins (89ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (291ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Users/shiranekyosuke/Desktop/2021.3.4f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4019 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 30 unused Assets / (79.9 KB). Loaded Objects now: 4483.
-Memory consumption went from 189.2 MB to 189.1 MB.
-Total: 4.552577 ms (FindLiveObjects: 0.265895 ms CreateObjectMapping: 0.152528 ms MarkObjects: 3.919873 ms  DeleteObjects: 0.212785 ms)
+Unloading 4020 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (84.2 KB). Loaded Objects now: 4484.
+Memory consumption went from 189.7 MB to 189.6 MB.
+Total: 3.471700 ms (FindLiveObjects: 0.363817 ms CreateObjectMapping: 0.195863 ms MarkObjects: 2.757778 ms  DeleteObjects: 0.153238 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -167,21 +167,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 99183.455035 seconds.
-  path: Assets/Scenes/KZK.unity
-  artifactKey: Guid(e8ccf0002e407d742862ddd8f3514102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/KZK.unity using Guid(e8ccf0002e407d742862ddd8f3514102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f06e3947337ef714ef8a6131d00bbbc') in 0.008230 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/Scenes/AM.unity
-  artifactKey: Guid(43f5bb1a73068304fa13932557a22641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/AM.unity using Guid(43f5bb1a73068304fa13932557a22641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43dfaa9d595f198e8103f17a87ae7a4f') in 0.000948 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/Scenes/SK.unity
-  artifactKey: Guid(da44b7c4a9ce1814fb36a89dde2216d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SK.unity using Guid(da44b7c4a9ce1814fb36a89dde2216d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd04be6a5516ecc25af97c13ba04a0416') in 0.000922 seconds 
-2023-10-30 18:35:13.580 Unity[46623:1156690] HIToolbox: received notification of WindowServer event port death.
-2023-10-30 18:35:13.580 Unity[46623:1156690] port matched the WindowServer port created in BindCGSToRunLoop
+  Time since last request: 3702.354124 seconds.
+  path: Assets/ClusterVR/StaticResources/Prefabs/Ranking/3rdRanker.prefab
+  artifactKey: Guid(e11fe19dbf1c84a92b1a9cd8943e9986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ClusterVR/StaticResources/Prefabs/Ranking/3rdRanker.prefab using Guid(e11fe19dbf1c84a92b1a9cd8943e9986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82866d75260d8d7496d9f39a22a329c2') in 0.500660 seconds 
