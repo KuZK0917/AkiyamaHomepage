@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-C:\Users\zkai\AkiyamaHomepage\My project (1)
-=======
-C:\Users\mzka0\OneDrive\ドキュメント\GitHub\AkiyamaHomepage\My project (1)
->>>>>>> f1db5ec60a9e07701f8b075dd6c6c7181aaafbe5
+/Users/shiranekyosuke/Documents/GitHub/AkiyamaHomepage/My project (1)
