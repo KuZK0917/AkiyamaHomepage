@@ -330,6 +330,18 @@
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>/Users/shiranekyosuke/Desktop/2021.3.4f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>/Users/shiranekyosuke/Desktop/2021.3.4f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Android.Types">
+      <HintPath>/Users/shiranekyosuke/Desktop/2021.3.4f1/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Android.Gradle">
+      <HintPath>/Users/shiranekyosuke/Desktop/2021.3.4f1/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll</HintPath>
+    </Reference>
     <Reference Include="netstandard">
       <HintPath>/Users/shiranekyosuke/Desktop/2021.3.4f1/Unity.app/Contents/NetStandard/ref/2.1.0/netstandard.dll</HintPath>
     </Reference>
